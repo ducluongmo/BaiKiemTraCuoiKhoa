@@ -152,13 +152,13 @@
     </div>
     <div class="newsletter">
         <div class="container">
-            <p class="newsletter-title">Or subscribe to the newsletter</p>
-            <div class="filter">
-                <div class="filter-menu">
+            <p class="title">Or subscribe to the newsletter</p>
+            <div class="list">
+                <div class="list-menu">
                     <a href="">All products</a>
-                    <a href="">T-Shirt</a>
-                    <a href="">Hoodies</a>
-                    <a href="">Jacket</a>
+                    <a class="item-filter" href="">T-Shirt</a>
+                    <a class="item-filter" href="">Hoodies</a>
+                    <a class="item-filter" href="">Jacket</a>
                 </div>
                 <button class="btn-filter">
                     <i class="fa-solid fa-filter" style="margin-right: 4px;"></i>
@@ -166,21 +166,410 @@
                 </button>
             </div>
             <div class="newsletter-items">
-                <div class="row">
-                    <div class="column column-4">
-                        <div class="item"></div>
+                <div class="items-top items">
+                    <div class="item">
+                        <img src="./assets/images/image-product-3.png" alt="">
+                        <div class="item-price">
+                            <p class="name-item">Adicolor Classics Joggers</p>
+                            <div class="price">
+                                <p style="color: rgba(0, 0, 0, 0.50);">Dress</p>
+                                <p>$63.85</p>
+                            </div>
+                        </div>
+                        <div class="access-product">
+                            <div class="icon-access">
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                            <a href="#" class="btn-shop-access">
+                                <i class="fa-solid fa-bag-shopping" style="margin-right: 8px;"></i>
+                                Shop now
+                            </a>
+                        </div>
                     </div>
-                    <div class="column column-4">
-                        <div class="item"></div>
+                    <div class="item">
+                        <img src="./assets/images/image-product-4.png" alt="">
+                        <div class="item-price">
+                            <p class="name-item">Nike Sportswear Futura Luxe</p>
+                            <div class="price">
+                                <p style="color: rgba(0, 0, 0, 0.50);">Bag</p>
+                                <p>$130.00</p>
+                            </div>
+                        </div>
+                        <div class="access-product">
+                            <div class="icon-access">
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                            <a href="#" class="btn-shop-access">
+                                <i class="fa-solid fa-bag-shopping" style="margin-right: 8px;"></i>
+                                Shop now
+                            </a>
+                        </div>
                     </div>
-                    <div class="column column-4">
-                        <div class="item"></div>
+                    <div class="item">
+                        <img src="./assets/images/image-product-5.png" alt="">
+                        <div class="item-price">
+                            <p class="name-item">Geometric Print Scarf</p>
+                            <div class="price">
+                                <p style="color: rgba(0, 0, 0, 0.50);">Scarf</p>
+                                <p>$53.00</p>
+                            </div>
+                        </div>
+                        <div class="access-product">
+                            <div class="icon-access">
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                            <a href="#" class="btn-shop-access">
+                                <i class="fa-solid fa-bag-shopping" style="margin-right: 8px;"></i>
+                                Shop now
+                            </a>
+                        </div>
                     </div>
-                    <div class="column column-4">
-                        <div class="item"></div>
+                    <div class="item">
+                        <img src="./assets/images/image-product.png" alt="">
+                        <div class="item-price">
+                            <p class="name-item">Yellow Reserved Hoodie</p>
+                            <div class="price">
+                                <p style="color: rgba(0, 0, 0, 0.50);">Dress</p>
+                                <div class="sale">
+                                    <p class="origin-price">$364.00</p>
+                                    <p class="sale-price">$155.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="access-product">
+                            <div class="icon-access">
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                            <a href="#" class="btn-shop-access">
+                                <i class="fa-solid fa-bag-shopping" style="margin-right: 8px;"></i>
+                                Shop now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="items-top items">
+                    <div class="item">
+                        <img src="./assets/images/image-product-7.png" alt="">
+                        <div class="item-price">
+                            <p class="name-item">Basic Dress Green</p>
+                            <div class="price">
+                                <p style="color: rgba(0, 0, 0, 0.50);">Dress</p>
+                                <p>$236.00</p>
+                            </div>
+                        </div>
+                        <div class="access-product">
+                            <div class="icon-access">
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                            <a href="#" class="btn-shop-access">
+                                <i class="fa-solid fa-bag-shopping" style="margin-right: 8px;"></i>
+                                Shop now
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./assets/images/image-product-6.png" alt="">
+                        <div class="item-price">
+                            <p class="name-item">Nike Air Zoom Pegasus</p>
+                            <div class="price">
+                                <p style="color: rgba(0, 0, 0, 0.50);">Shoe</p>
+                                <div class="sale">
+                                    <p class="origin-price">$220.00</p>
+                                    <p class="sale-price">$198.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="access-product">
+                            <div class="icon-access">
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                            <a href="#" class="btn-shop-access">
+                                <i class="fa-solid fa-bag-shopping" style="margin-right: 8px;"></i>
+                                Shop now
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./assets/images/image-product-1.png" alt="">
+                        <div class="item-price">
+                            <p class="name-item">Nike Repel Miler</p>
+                            <div class="price">
+                                <p style="color: rgba(0, 0, 0, 0.50);">Dress</p>
+                                <p>$63.85</p>
+                            </div>
+                        </div>
+                        <div class="access-product">
+                            <div class="icon-access">
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                            <a href="#" class="btn-shop-access">
+                                <i class="fa-solid fa-bag-shopping" style="margin-right: 8px;"></i>
+                                Shop now
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./assets/images/image-product-2.png" alt="">
+                        <div class="item-price">
+                            <p class="name-item">Nike Sportswear Futura Luxe</p>
+                            <div class="price">
+                                <p style="color: rgba(0, 0, 0, 0.50);">Glass</p>
+                                <p>$63.85</p>
+                            </div>
+                        </div>
+                        <div class="access-product">
+                            <div class="icon-access">
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                            <a href="#" class="btn-shop-access">
+                                <i class="fa-solid fa-bag-shopping" style="margin-right: 8px;"></i>
+                                Shop now
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="banner-content">
+            <div class="banner-logo">
+                <div class="logo-1">
+                    <img src="./assets/images/logo-1.png" alt="">
+                </div>
+                <div class="logo-2"></div>
+            </div>
+            <p>
+                Lustrous yet understated. The new evening
+                wear collection exclusively offered at the
+                reopened Giorgio Armani boutique in Los
+                Angeles.
+            </p>
+            <a href="">See collection</a>
+        </div>
+    </div>
+    <div class="best-seller">
+        <div class="container">
+            <p class="title">Best sellers</p>
+            <div class="list">
+                <div class="list-menu">
+                    <a href="">All products</a>
+                    <a class="item-filter" href="">T-Shirt</a>
+                    <a class="item-filter" href="">Hoodies</a>
+                    <a class="item-filter" href="">Jacket</a>
+                </div>
+                <button class="btn-filter">
+                    Show all
+                </button>
+            </div>
+            <div class="slider">
+                <div class="item">
+                    <img src="./assets/images/image-product-7.png" alt="">
+                    <div class="item-price">
+                        <p class="name-item">Adicolor Classics Joggers</p>
+                        <div class="price">
+                            <p>Dress</p>
+                            <p>$63.85</p>
+                        </div>
+                    </div>
+                    <div class="access-product">
+                        <div class="icon-access">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <a href="#" class="btn-shop-access">
+                            <i class="fa-solid fa-bag-shopping" style="margin-right: 8px;"></i>
+                            Shop now
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./assets/images/image-product-4.png" alt="">
+                    <div class="item-price">
+                        <p class="name-item">Adicolor Classics Joggers</p>
+                        <div class="price">
+                            <p>Dress</p>
+                            <p>$63.85</p>
+                        </div>
+                    </div>
+                    <div class="access-product">
+                        <div class="icon-access">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <a href="#" class="btn-shop-access">
+                            <i class="fa-solid fa-bag-shopping" style="margin-right: 8px;"></i>
+                            Shop now
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./assets/images/image-product.png" alt="">
+                    <div class="item-price">
+                        <p class="name-item">Adicolor Classics Joggers</p>
+                        <div class="price">
+                            <p>Dress</p>
+                            <p>$63.85</p>
+                        </div>
+                    </div>
+                    <div class="access-product">
+                        <div class="icon-access">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <a href="#" class="btn-shop-access">
+                            <i class="fa-solid fa-bag-shopping" style="margin-right: 8px;"></i>
+                            Shop now
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./assets/images/image-product-6.png" alt="">
+                    <div class="item-price">
+                        <p class="name-item">Adicolor Classics Joggers</p>
+                        <div class="price">
+                            <p>Dress</p>
+                            <p>$63.85</p>
+                        </div>
+                    </div>
+                    <div class="access-product">
+                        <div class="icon-access">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <a href="#" class="btn-shop-access">
+                            <i class="fa-solid fa-bag-shopping" style="margin-right: 8px;"></i>
+                            Shop now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="newsletter-instagram">
+        <div class="container">
+            <div class="discount">
+                <p>Follow products and discounts on Instagram</p>
+                <div class="ig-card">
+                    <div class="card">
+                        <img src="./assets/images/image-product-8.png" alt="">
+                        <i class="fa-brands fa-instagram"></i>
+
+                    </div>
+                    <div class="card">
+                        <img src="./assets/images/image-product-9.png" alt="">
+                        <div class="ig-icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/images/image-product-10.png" alt="">
+                        <div class="ig-icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/images/image-product-11.png" alt="">
+                        <div class="ig-icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/images/image-product-12.png" alt="">
+                        <div class="ig-icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/images/image-product-13.png" alt="">
+                        <div class="ig-icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Or subscribe to the newsletter</p>
+                <div class="submit-form">
+                    <input type="text" placeholder="Email address...">
+                    <button>Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="top-footer">
+            <div class="Left-footer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="31" height="15" viewBox="0 0 31 15" fill="none">
+                    <path d="M0.353554 7.5L7.5 0.353554L14.6464 7.5L7.5 14.6464L0.353554 7.5Z" stroke="black"
+                        stroke-width="0.5" />
+                    <path d="M8.35355 7.5L15.5 0.353554L22.6464 7.5L15.5 14.6464L8.35355 7.5Z" stroke="black"
+                        stroke-width="0.5" />
+                    <path d="M16.3536 7.5L23.5 0.353554L30.6464 7.5L23.5 14.6464L16.3536 7.5Z" stroke="black"
+                        stroke-width="0.5" />
+                </svg>
+                <span>CORAL</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="31" height="15" viewBox="0 0 31 15" fill="none">
+                    <path d="M0.353554 7.5L7.5 0.353554L14.6464 7.5L7.5 14.6464L0.353554 7.5Z" stroke="black"
+                        stroke-width="0.5" />
+                    <path d="M8.35355 7.5L15.5 0.353554L22.6464 7.5L15.5 14.6464L8.35355 7.5Z" stroke="black"
+                        stroke-width="0.5" />
+                    <path d="M16.3536 7.5L23.5 0.353554L30.6464 7.5L23.5 14.6464L16.3536 7.5Z" stroke="black"
+                        stroke-width="0.5" />
+                </svg>
+                <p class="left-content">Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua</p>
+                <div>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+            <div class="footer-menu">
+                <p>CATALOG</p>
+                <ul>
+                    <li><a href="#">Necklaces</a> </li>
+                    <li><a href="#">Hoodies</a> </li>
+                    <li><a href="#">Jewelry Box</a> </li>
+                    <li><a href="#">T-Shirt</a> </li>
+                    <li><a href="#">Jacket</a> </li>
+                </ul>
+            </div>
+            <div class="left-menu footer-menu">
+                <p>ABOUT US</p>
+                <ul>
+                    <li><a href="#">Our Producers</a> </li>
+                    <li><a href="#">Sitemap</a> </li>
+                    <li><a href="#">FAQ</a> </li>
+                    <li><a href="#">About Us</a> </li>
+                    <li><a href="#">Terms &amp; Conditions</a> </li>
+                </ul>
+            </div>
+            <div class="right-menu footer-menu">
+                <p>CUSTOMER SERVICES</p>
+                <ul>
+                    <li><a href="#">Contact Us</a> </li>
+                    <li><a href="#">Track Your Order</a> </li>
+                    <li><a href="#">Product Care &amp; Repair</a> </li>
+                    <li><a href="#">Book an Appointment</a> </li>
+                    <li><a href="#">Shipping &amp; Returns</a> </li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <div class="corporate">© 2022 Coral , Inc.</div>
+            <img src="./assets/images/payment.png">
+            <a href="#"><span>Scroll to top</span>
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
         </div>
     </div>
     <script src="./assets/js/main.js"></script>
